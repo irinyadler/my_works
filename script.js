@@ -14,7 +14,11 @@ $(document).ready(function () {
 		if (scroll_pos > element_pos) {
 			$('.circle__percent').addClass('act');
 
-		};
+		}
+		else {
+
+			$('.circle__percent').addClass('act');
+		}
 
 	})
 });
