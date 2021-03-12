@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 			min-height: 100vh;
 		}
 .full__bg{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://github.com/irinyadler/my_works.github.io/blob/main/main2.jpg") center / cover no-repeat fixed;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../main2.jpg") center / cover no-repeat fixed;
 }
 .mainblock{
 	flex: 1 1 auto;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .mainblock__content{
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('irinyadler.github.io/main1.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../main1.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
