@@ -101,15 +101,39 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 120px 10px 0px 10px;
 	font-family: 'Playfair Display', serif;
 }
-.mainblock__title{
- margin: 3% 0;
-	font-size: 22px;
-	letter-spacing: 3px;
-}
 .mainblock__subtitle{
 	text-transform: uppercase;
 	font-size: 40px;
 	font-weight: 700;
+	overflow: hidden;
+	border: 3px solid #fff;
+	height: 80px;
+	padding: 0px 5px;
+	background-color: #fff;
+	color: black;
+	margin: 0px 0px 10px 0px;
+}
+.mainblock__subtitle2{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
+.mainblock:hover span{
+	animation: title 2s steps(3, end) infinite;
+}
+.mainblock__subtitle span{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 10px;
+}
+@keyframes title{
+	0%{
+	}
+	100%{
+		transform: translate(0px, -240px);
+	}
 }
 
 .btn{
