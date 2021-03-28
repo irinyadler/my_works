@@ -91,6 +91,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px 10px 0px 10px;
 
 }
+.mainblock__title{
+ margin: 3% 0;
+	font-size: 22px;
+	letter-spacing: 3px;
+}
 .mainblock__text{
 	color: #fff;
 	letter-spacing: 5.43px;
@@ -204,6 +209,9 @@ margin-bottom: 10px;
 	}
 	.mainblock__subtitle{
 		font-size: 24px;
+	}
+	.mainblock__subtitle2{
+		font-size: 20px;
 	}
 	.mainblock__title{
 		font-size: 16px;
