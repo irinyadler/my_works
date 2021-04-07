@@ -190,7 +190,7 @@ margin-bottom: 10px;
 		line-height: 2;
 	}
 }
-@media (max-width: 789){
+@media (max-width: 789px){
 	.mainblock__arrow{
 		left: 48%;
 		height: 30px;
